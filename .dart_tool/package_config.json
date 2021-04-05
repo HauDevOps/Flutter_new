@@ -8,6 +8,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "bloc",
+      "rootUri": "file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/bloc-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "boolean_selector",
       "rootUri": "file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/boolean_selector-2.1.0",
       "packageUri": "lib/",
@@ -56,6 +62,12 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "flutter_bloc",
+      "rootUri": "file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/flutter_bloc-7.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///D:/Mobile/dark/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -74,8 +86,26 @@
       "languageVersion": "2.12"
     },
     {
+      "name": "nested",
+      "rootUri": "file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "path",
       "rootUri": "file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/provider-5.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "rxdart",
+      "rootUri": "file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/rxdart-0.26.0",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -140,7 +170,7 @@
       "languageVersion": "2.7"
     }
   ],
-  "generated": "2021-04-05T03:13:11.588834Z",
+  "generated": "2021-04-05T03:42:30.548997Z",
   "generator": "pub",
   "generatorVersion": "2.12.1"
 }
