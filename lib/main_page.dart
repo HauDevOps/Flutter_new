@@ -2,7 +2,7 @@ import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_blocexer/basic_bloc.dart';
 import 'package:flutter_blocexer/main_bloc.dart';
-import 'package:rxdart/subjects.dart';
+import 'package:flutter_blocexer/routers/router_name.dart';
 
 class MainPage extends StatefulWidget {
   @override
@@ -19,7 +19,7 @@ class _MainPageState extends State<MainPage> {
           "BLoC Architecture",
         )),
         body: Padding(
-          padding: const EdgeInsets.all(10.0),
+          padding: const EdgeInsets.symmetric(horizontal: 100, vertical: 200),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [
@@ -42,6 +42,12 @@ class _MainPageState extends State<MainPage> {
                   bloc.decrement();
                 },
                 child: Text('-'),
+              ),
+              ElevatedButton(
+                onPressed: () {
+                  Navigator.pushNamed(context, router_color);
+                },
+                child: Text('Switch'),
               ),
             ],
           ),

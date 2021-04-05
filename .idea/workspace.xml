@@ -1,19 +1,41 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="b98f11c1-de59-46d8-adc1-e5580e3ee6ec" name="Default Changelist" comment="init">
-      <change afterPath="$PROJECT_DIR$/lib/basic_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/main_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/main_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/routers/customer_router.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/routers/router_name.dart" afterDir="false" />
+    <list default="true" id="b98f11c1-de59-46d8-adc1-e5580e3ee6ec" name="Default Changelist" comment="Screen Increment and Decrement">
+      <change afterPath="$PROJECT_DIR$/lib/api/api_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/api/api_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/color/color_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/color/color_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/android/local.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/routers/customer_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routers/customer_router.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/routers/router_name.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routers/router_name.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
     </list>
@@ -64,37 +86,85 @@
       <option name="project" value="LOCAL" />
       <updated>1617592526211</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Screen Increment and Decrement">
+      <created>1617598870235</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1617598870235</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
-    <option name="LAST_COMMIT_MESSAGE" value="init" />
+    <MESSAGE value="New init" />
+    <MESSAGE value="Screen Increment and Decrement" />
+    <option name="LAST_COMMIT_MESSAGE" value="Screen Increment and Decrement" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1617596958883">
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1617621157274">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617618583722" />
+    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617621157274" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1617621157273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617618583722" />
+    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1617621157273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617618583721" />
+    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1617621157273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617618583722" />
+    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
+    <state width="1323" height="182" key="GridCell.Tab.1.bottom" timestamp="1617621157273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617615358523" />
+    <state width="1323" height="182" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
+    <state width="1323" height="182" key="GridCell.Tab.1.center" timestamp="1617621157273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617615358523" />
+    <state width="1323" height="182" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
+    <state width="1323" height="182" key="GridCell.Tab.1.left" timestamp="1617621157273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617615358523" />
+    <state width="1323" height="182" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
+    <state width="1323" height="182" key="GridCell.Tab.1.right" timestamp="1617621157273">
+      <screen x="0" y="0" width="1536" height="834" />
+    </state>
+    <state width="1323" height="182" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617615358523" />
+    <state width="1323" height="182" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
+    <state x="2195" y="102" key="Vcs.Push.Dialog.v2" timestamp="1617598876903">
       <screen x="1920" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617596958883" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1617596958883">
-      <screen x="1920" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617596958883" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1617596958883">
-      <screen x="1920" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617596958883" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1617596958883">
-      <screen x="1920" y="0" width="1366" height="738" />
-    </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617596958883" />
-    <state x="2195" y="102" key="Vcs.Push.Dialog.v2" timestamp="1617592615863">
-      <screen x="1920" y="0" width="1366" height="738" />
-    </state>
-    <state x="2195" y="102" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617592615863" />
+    <state x="2195" y="102" key="Vcs.Push.Dialog.v2/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617598876903" />
     <state x="2404" y="275" key="git4idea.remote.GitConfigureRemotesDialog" timestamp="1617592571351">
       <screen x="1920" y="0" width="1366" height="738" />
     </state>
     <state x="2404" y="275" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617592571351" />
+    <state x="2259" y="165" key="run.anything.popup" timestamp="1617610768700">
+      <screen x="1920" y="0" width="1366" height="738" />
+    </state>
+    <state x="2259" y="165" key="run.anything.popup/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617610768700" />
   </component>
 </project>
