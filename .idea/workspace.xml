@@ -23,35 +23,13 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b98f11c1-de59-46d8-adc1-e5580e3ee6ec" name="Default Changelist" comment="Bloc, DIO, Route">
-      <change afterPath="$PROJECT_DIR$/lib/products/product.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/products/product_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/products/product_model.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/products/product_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/products/product_service.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screen_shop/screen_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/screen_shop/screen_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/color/color_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/color/color_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/main_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/main_page.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/routers/customer_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routers/customer_router.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/routers/router_name.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routers/router_name.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pubspec.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.yaml" afterDir="false" />
-    </list>
+    <list default="true" id="b98f11c1-de59-46d8-adc1-e5580e3ee6ec" name="Default Changelist" comment="API" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[Pixel_2_API_28]" />
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[]" />
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -112,7 +90,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617621600794</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="API">
+      <created>1617706297973</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1617706297973</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -132,7 +117,8 @@
     <MESSAGE value="New init" />
     <MESSAGE value="Screen Increment and Decrement" />
     <MESSAGE value="Bloc, DIO, Route" />
-    <option name="LAST_COMMIT_MESSAGE" value="Bloc, DIO, Route" />
+    <MESSAGE value="API" />
+    <option name="LAST_COMMIT_MESSAGE" value="API" />
   </component>
   <component name="WindowStateProjectService">
     <state x="93" y="93" width="1350" height="648" key="AVDManager" timestamp="1617673359100">
