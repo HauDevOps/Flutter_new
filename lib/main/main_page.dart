@@ -1,7 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_blocexer/basic_bloc.dart';
-import 'package:flutter_blocexer/main_bloc.dart';
+import 'file:///D:/TestAndroid/flutter_blocexer/lib/main/main_bloc.dart';
 import 'package:flutter_blocexer/routers/router_name.dart';
 
 class MainPage extends StatefulWidget {

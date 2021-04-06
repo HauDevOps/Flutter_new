@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CUSTOM_FILTER" value="API" />
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="Show only selected application" />
+  </component>
   <component name="BranchesTreeState">
     <expand>
       <path>
@@ -19,21 +23,24 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="b98f11c1-de59-46d8-adc1-e5580e3ee6ec" name="Default Changelist" comment="Screen Increment and Decrement">
-      <change afterPath="$PROJECT_DIR$/lib/api/api_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/api/api_page.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/color/color_bloc.dart" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/color/color_page.dart" afterDir="false" />
+    <list default="true" id="b98f11c1-de59-46d8-adc1-e5580e3ee6ec" name="Default Changelist" comment="Bloc, DIO, Route">
+      <change afterPath="$PROJECT_DIR$/lib/products/product.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/products/product_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/products/product_model.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/products/product_page.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/products/product_service.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screen_shop/screen_bloc.dart" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/lib/screen_shop/screen_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config.json" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.dart_tool/package_config_subset" beforeDir="false" afterPath="$PROJECT_DIR$/.dart_tool/package_config_subset" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Dart_Packages.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/libraries/Flutter_Plugins.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.packages" beforeDir="false" afterPath="$PROJECT_DIR$/.packages" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/java/io/flutter/plugins/GeneratedPluginRegistrant.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" beforeDir="false" afterPath="$PROJECT_DIR$/ios/Runner/GeneratedPluginRegistrant.m" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_bloc.dart" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/main_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/android/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/color/color_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/color/color_page.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_bloc.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/main_bloc.dart" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lib/main_page.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/main/main_page.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/routers/customer_router.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routers/customer_router.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lib/routers/router_name.dart" beforeDir="false" afterPath="$PROJECT_DIR$/lib/routers/router_name.dart" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pubspec.lock" beforeDir="false" afterPath="$PROJECT_DIR$/pubspec.lock" afterDir="false" />
@@ -65,8 +72,13 @@
     <property name="dart.analysis.tool.window.force.activate" value="true" />
     <property name="dart.analysis.tool.window.visible" value="false" />
     <property name="io.flutter.reload.alreadyRun" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Mobile/dart_flutter/ov-wft-enfield/app" />
     <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TestAndroid\flutter_blocexer\lib\main" />
+    </key>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -93,7 +105,14 @@
       <option name="project" value="LOCAL" />
       <updated>1617598870235</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Bloc, DIO, Route">
+      <created>1617621600794</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1617621600794</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -106,53 +125,63 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="init" />
     <MESSAGE value="New init" />
     <MESSAGE value="Screen Increment and Decrement" />
-    <option name="LAST_COMMIT_MESSAGE" value="Screen Increment and Decrement" />
+    <MESSAGE value="Bloc, DIO, Route" />
+    <option name="LAST_COMMIT_MESSAGE" value="Bloc, DIO, Route" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom" timestamp="1617621157274">
+    <state x="93" y="93" width="1350" height="648" key="AVDManager" timestamp="1617673359100">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617618583722" />
-    <state width="1323" height="182" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617621157274" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center" timestamp="1617621157273">
+    <state x="93" y="93" width="1350" height="648" key="AVDManager/0.0.1536.834@0.0.1536.834" timestamp="1617673359100" />
+    <state x="549" y="172" key="FileChooserDialogImpl" timestamp="1617672136943">
       <screen x="0" y="0" width="1536" height="834" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617618583722" />
-    <state width="1323" height="182" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left" timestamp="1617621157273">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state x="549" y="172" key="FileChooserDialogImpl/0.0.1536.834@0.0.1536.834" timestamp="1617672136943" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom" timestamp="1617705518210">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617618583721" />
-    <state width="1323" height="182" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right" timestamp="1617621157273">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1323" height="2" key="GridCell.Tab.0.bottom/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617705518210" />
+    <state width="1491" height="274" key="GridCell.Tab.0.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617667914174" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center" timestamp="1617705518210">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617618583722" />
-    <state width="1323" height="182" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
-    <state width="1323" height="182" key="GridCell.Tab.1.bottom" timestamp="1617621157273">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1323" height="2" key="GridCell.Tab.0.center/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617705518210" />
+    <state width="1491" height="274" key="GridCell.Tab.0.center/0.0.1536.834@0.0.1536.834" timestamp="1617667914174" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left" timestamp="1617705518210">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617615358523" />
+    <state width="1323" height="2" key="GridCell.Tab.0.left/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617705518210" />
+    <state width="1491" height="274" key="GridCell.Tab.0.left/0.0.1536.834@0.0.1536.834" timestamp="1617667914174" />
+    <state width="1323" height="2" key="GridCell.Tab.0.right" timestamp="1617705518210">
+      <screen x="1920" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="2" key="GridCell.Tab.0.right/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617705518210" />
+    <state width="1491" height="274" key="GridCell.Tab.0.right/0.0.1536.834@0.0.1536.834" timestamp="1617667914174" />
+    <state width="1323" height="233" key="GridCell.Tab.1.bottom" timestamp="1617702556650">
+      <screen x="1920" y="0" width="1366" height="738" />
+    </state>
+    <state width="1323" height="233" key="GridCell.Tab.1.bottom/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617702556650" />
     <state width="1323" height="182" key="GridCell.Tab.1.bottom/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
-    <state width="1323" height="182" key="GridCell.Tab.1.center" timestamp="1617621157273">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1323" height="233" key="GridCell.Tab.1.center" timestamp="1617702556649">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617615358523" />
+    <state width="1323" height="233" key="GridCell.Tab.1.center/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617702556649" />
     <state width="1323" height="182" key="GridCell.Tab.1.center/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
-    <state width="1323" height="182" key="GridCell.Tab.1.left" timestamp="1617621157273">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1323" height="233" key="GridCell.Tab.1.left" timestamp="1617702556649">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617615358523" />
+    <state width="1323" height="233" key="GridCell.Tab.1.left/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617702556649" />
     <state width="1323" height="182" key="GridCell.Tab.1.left/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
-    <state width="1323" height="182" key="GridCell.Tab.1.right" timestamp="1617621157273">
-      <screen x="0" y="0" width="1536" height="834" />
+    <state width="1323" height="233" key="GridCell.Tab.1.right" timestamp="1617702556650">
+      <screen x="1920" y="0" width="1366" height="738" />
     </state>
-    <state width="1323" height="182" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617615358523" />
+    <state width="1323" height="233" key="GridCell.Tab.1.right/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617702556650" />
     <state width="1323" height="182" key="GridCell.Tab.1.right/0.0.1536.834@0.0.1536.834" timestamp="1617621157273" />
     <state x="2195" y="102" key="Vcs.Push.Dialog.v2" timestamp="1617598876903">
       <screen x="1920" y="0" width="1366" height="738" />
@@ -162,9 +191,21 @@
       <screen x="1920" y="0" width="1366" height="738" />
     </state>
     <state x="2404" y="275" key="git4idea.remote.GitConfigureRemotesDialog/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617592571351" />
-    <state x="2259" y="165" key="run.anything.popup" timestamp="1617610768700">
-      <screen x="1920" y="0" width="1366" height="738" />
+    <state x="382" y="186" key="run.anything.popup" timestamp="1617636781576">
+      <screen x="0" y="0" width="1536" height="834" />
     </state>
     <state x="2259" y="165" key="run.anything.popup/0.0.1536.834/1920.0.1366.738@1920.0.1366.738" timestamp="1617610768700" />
+    <state x="382" y="186" key="run.anything.popup/0.0.1536.834@0.0.1536.834" timestamp="1617636781576" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="Dart">
+          <url>file://$PROJECT_DIR$/lib/products/product_bloc.dart</url>
+          <line>17</line>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

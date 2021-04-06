@@ -41,7 +41,7 @@ class _MainPageState extends State<ColorPage> {
                         color: snapShot.data,
                       ),
                     );
-                  }),
+                  },),
               ElevatedButton(
                 onPressed: () {
                   bloc.changeColors(SelectedColors.red);

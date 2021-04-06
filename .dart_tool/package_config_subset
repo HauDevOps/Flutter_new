@@ -46,6 +46,10 @@ fluttertoast
 2.12
 file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.3/
 file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/fluttertoast-8.0.3/lib/
+http
+2.12
+file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.1/
+file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/http-0.13.1/lib/
 http_parser
 2.12
 file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/http_parser-4.0.0/
@@ -70,6 +74,10 @@ path
 2.12
 file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0/
 file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/path-1.8.0/lib/
+pedantic
+2.12
+file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.11.0/
+file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/pedantic-1.11.0/lib/
 provider
 2.12
 file:///D:/Mobile/dark/flutter/.pub-cache/hosted/pub.dartlang.org/provider-5.0.0/
