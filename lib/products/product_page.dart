@@ -11,12 +11,49 @@ class ProductPage extends StatefulWidget {
 
 class _ProductPageState extends State<ProductPage> {
   ProductBloc bloc;
+  int _selectedIndex = 0;
+
+  // void checkString() {
+  //   const String strings =
+  //       'https://meatdeli.com.vn/txng/200039003320403214154028813510';
+  //
+  //   final lastIndex = strings.lastIndexOf('/');
+  //   final strCheck = strings.substring(lastIndex + 1, strings.length);
+  //
+  //   print('DEVTEst ' + strCheck);
+  // }
+
+
+
+  String handlerQR(String str) {
+    var qrCode = str;
+
+    final lastIndex = str.lastIndexOf('/');
+    if(lastIndex != -1){
+      qrCode = str.substring(lastIndex + 1, str.length);
+    }
+    print('TheCuong qrCode $qrCode');
+    return qrCode;
+  }
+
+  bool isCheckQR(String str, List<String> defines) {
+    if (str.isNotEmpty && defines.isNotEmpty) {
+      for (final value in defines) {
+        if (str.contains(value)) {
+          return true;
+        }
+      }
+    }
+    return false;
+  }
 
   @override
   void initState() {
     super.initState();
     bloc = BlocProvider.of<ProductBloc>(context);
     bloc.callApi();
+    const sTemp = 'https://meatdeli.com.vn/txng/200039003320403214154028813510';
+    handlerQR(sTemp);
   }
 
   @override
@@ -86,7 +123,8 @@ class _ProductPageState extends State<ProductPage> {
                                     Stack(
                                       children: [
                                         ClipRRect(
-                                          borderRadius: BorderRadius.circular(5),
+                                          borderRadius:
+                                              BorderRadius.circular(5),
                                           child: Text(
                                             'Đã bán ' +
                                                 snapShot.data[index].progress
@@ -115,7 +153,40 @@ class _ProductPageState extends State<ProductPage> {
               ))
         ],
       ),
+      bottomNavigationBar: BottomNavigationBar(
+        items: const <BottomNavigationBarItem>[
+          BottomNavigationBarItem(
+            icon: Icon(Icons.home),
+            label: 'Trang chủ',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.table_chart),
+            label: 'Danh mục',
+          ),
+          BottomNavigationBarItem(
+            icon: Icon(Icons.fireplace),
+            label: 'Lướt',
+          ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(Icons.chat),
+          //   label: 'Chat',
+          // ),
+          // BottomNavigationBarItem(
+          //   icon: Icon(Icons.person),
+          //   label: 'Cá nhân',
+          // ),
+        ],
+        currentIndex: _selectedIndex,
+        selectedItemColor: Colors.amber[800],
+        onTap: _onItemTapped,
+      ),
     );
+  }
+
+  void _onItemTapped(int index) {
+    setState(() {
+      _selectedIndex = index;
+    });
   }
 
   Widget titleAppbar() {
@@ -145,35 +216,35 @@ class _ProductPageState extends State<ProductPage> {
                     ClipRRect(
                         borderRadius: BorderRadius.circular(5),
                         child: Text(
-                      "$hour",
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 15,
-                          color: Colors.white,
-                          backgroundColor: Colors.red),
-                    )),
+                          "$hour",
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15,
+                              color: Colors.white,
+                              backgroundColor: Colors.red),
+                        )),
                     Text(" : "),
                     ClipRRect(
                         borderRadius: BorderRadius.circular(5),
                         child: Text(
-                      "$minutes",
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 15,
-                          color: Colors.white,
-                          backgroundColor: Colors.red),
-                    )),
+                          "$minutes",
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15,
+                              color: Colors.white,
+                              backgroundColor: Colors.red),
+                        )),
                     Text(" : "),
                     ClipRRect(
                         borderRadius: BorderRadius.circular(5),
                         child: Text(
-                      "$seconds",
-                      style: TextStyle(
-                          fontWeight: FontWeight.bold,
-                          fontSize: 15,
-                          color: Colors.white,
-                          backgroundColor: Colors.red),
-                    )),
+                          "$seconds",
+                          style: TextStyle(
+                              fontWeight: FontWeight.bold,
+                              fontSize: 15,
+                              color: Colors.white,
+                              backgroundColor: Colors.red),
+                        )),
                     Text(
                       '>',
                       style: TextStyle(
